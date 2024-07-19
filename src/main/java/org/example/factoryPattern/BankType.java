@@ -1,6 +1,6 @@
 package org.example.factoryPattern;
 
 public enum BankType {
-    VIETCOMBANK, TBBANK
+    VIETCOMBANK, TBBANK, TECHCOMBANK
     ;
 }

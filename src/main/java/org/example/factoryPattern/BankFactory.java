@@ -9,6 +9,8 @@ public class BankFactory {
                 return new Vietcombank();
             case TBBANK:
                 return new TPBank();
+            case TECHCOMBANK:
+                return new Techcombank();
             default:
                 throw new IllegalArgumentException("Not supported bank type!");
         }
